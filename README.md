@@ -7,4 +7,5 @@ On the website I describe the life of Ben-Gurion through a short summary of his 
 
 ID: 205814999<br>
 web address: https://web-development-environments-2023.github.io/205814999/
+github.io: https://github.com/Web-Development-Environments-2023/205814999
 
