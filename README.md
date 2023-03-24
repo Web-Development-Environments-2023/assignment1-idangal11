@@ -1,5 +1,5 @@
 # David Ben-Gurion Website
-The web site is about David Ben-Gurion, the primary national founder of the State of Israel and the
+The website is about David Ben-Gurion, the primary national founder of the State of Israel and the
 first prime minister of Israel.
 
 
