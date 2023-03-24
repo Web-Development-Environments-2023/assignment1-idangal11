@@ -1,7 +1,128 @@
 #menu
 {
 	position: fixed;
-	width: 100%;
+	width: 75%;
 	height: 35px;
-	background: white;
+	display: flex; 
+  	align-items: center;
+  	background-color: #e4e7eb;
+  	padding: 10px;
+	justify-content: center;
 }
+
+  #menu li:not(:last-child)::after {
+	content: "|";
+  }
+  
+  #menu li {
+    display: inline-block;
+    
+	
+  }
+  
+  #menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+	font-size: 1.3vw;
+	
+  }
+  
+
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #0b0c0c;
+	background-color: #408E91;
+
+}
+
+#image-conrtainer{
+	padding: 10px;
+}
+label.logo{
+	color: rgba(11, 1, 1, 0.901);
+	font-size: xx-large;
+	font-size: 2vw; /* adjust the value as needed */
+	padding: 2vw; /* adjust the value as needed */
+}
+
+.about{
+	/* text-align: center; */
+	padding: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: x-large;
+}
+
+
+p {
+	font-size: xx-large;
+  text-align: center;
+  line-height: 0.5;
+  position: relative;
+  padding: 20px 0;
+  }
+  
+  p:before,
+  p:after {
+  content: "  .......  ";
+ 
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+  height: 20px;
+  
+}
+
+p:after {
+  right: 0;
+  
+}
+
+h{
+	font-size: large;
+	padding: 20px;
+	position: center;
+}
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(205, 26, 218, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(19, 3, 3);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 200px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+#message{
+	width: 300px;
+  	height: 80px;
+}
+li{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: x-large;
+}
+h4{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: xx-large;
+}
+h{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: xx-large;
+	color: darkorange
+}
+
+  
+  
