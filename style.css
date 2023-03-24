@@ -48,8 +48,8 @@ body{
 label.logo{
 	color: rgba(11, 1, 1, 0.901);
 	font-size: xx-large;
-	font-size: 2vw; /* adjust the value as needed */
-	padding: 2vw; /* adjust the value as needed */
+	font-size: 2vw; 
+	padding: 2vw;
 }
 
 .about{
